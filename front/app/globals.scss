@@ -1,0 +1,54 @@
+:root {
+}
+* {
+  box-sizing: border-box;
+}
+section{
+  position: relative;
+}
+a {
+  text-decoration: none;
+}
+.inner{
+  height: 100%;
+  max-width: 1700px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  position:  relative;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+.floatLeft {
+  float: left;
+}
+.floatRight {
+  float: right;
+}
+.empty{
+  height: 80px;
+}
+// 공통 버튼 양식
+
+.button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+}
+.button:hover{
+  cursor: pointer;
+}
+
+
+// 공통양식 제거
+input{
+  border: none;
+}
+input:focus{
+  outline: none;
+}

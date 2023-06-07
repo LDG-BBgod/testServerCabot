@@ -1,0 +1,48 @@
+header{
+    background: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    box-shadow: 0 1px 5px #a8a8a82c;
+
+    .inner{
+        height: 80px;
+
+        .logoBox{
+            height: 100%;
+            display: flex;
+            align-items: center;
+
+            a{
+                font-size: 20px;
+            }
+        }
+        .menuBox{
+            height: 100%;
+            display: flex;
+            align-items: center;
+            margin-left: 20px;
+
+            .menuList{
+                margin-left: 20px;
+                font-size: 17px;
+                font-weight: bold;
+                color: #000;
+            }
+        }
+        .telInfo{
+            height: 100%;
+            display: flex;
+            align-items: center;
+
+            div{
+                font-size: 25px;
+                font-weight: bold;
+                color: #34464B;
+            }
+        }
+    }
+}
