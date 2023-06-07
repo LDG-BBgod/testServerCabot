@@ -33,7 +33,7 @@ if (cluster.isPrimary) {
   app.use(express.json())
   app.use(cors(corsOptions))
   
-  app.use('/', userRouter)
+  app.use('/api', userRouter)
   app.use((err, req, res, next) => {
     res.statusCode = err.statusCode || 500
     res.send(err.message)
