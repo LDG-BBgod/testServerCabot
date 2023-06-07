@@ -25,7 +25,7 @@ if (cluster.isPrimary) {
   const userRouter = require('./routers/user')
   
   const app = express()
-  const PORT = 7000
+  const PORT = 5000
   const corsOptions = {
     origin: '*',
   }

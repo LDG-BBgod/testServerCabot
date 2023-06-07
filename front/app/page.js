@@ -18,7 +18,8 @@ function Home () {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get('http://localhost:7000/')
+        // const response = await axios.get('http://okgabot.co.kr:5000/')
+        const response = await axios.get('http://localhost:5000/')
         setData(response.data)
       } catch (error) {
         console.error(error)
